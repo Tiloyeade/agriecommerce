@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* style.css */
+
+/* Style the header */
+.header {
+    background-color: #66ec0c;
+    color: #0ceb17;
+    padding: 1rem;
+}
+
+/* Style the logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style the navigation menu */
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 1rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: #ccc;
+}
